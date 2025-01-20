@@ -1,0 +1,689 @@
+
+ /* ============= commmon css start ============== */
+ *{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+/* ============= commmon css end ============== */ 
+/* ============= navbar part start ============== */ 
+.navbar{
+    width: 100%;
+    padding:27px 0;
+    background: #F9F9FC;
+}
+
+.nav-item .nav-link{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.nav-item .nav-link:hover{
+    color: #5E3BEE;
+}
+.navbar .nav-button button{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    padding: 11px 22px;
+    border: none;
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.navbar .nav-button button:hover{
+    color: #FFF;
+    background: #2a0da0;
+
+}
+.navbar .nav-button button i{
+    font-size: 16px;
+}
+.navbar .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 46px;
+}
+
+/* ============= navbar part end ============== */ 
+
+/* ============= banner part start ============== */ 
+#banner{
+    background: #F9F9FC;
+}
+#banner .bleft strong{
+    color: #5E3BEE;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#banner .bleft h1{
+    color: #333;
+    font-family: "Poppins",sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-top: 5px;
+}
+#banner .bright{
+    text-align: right;
+}
+#banner .bright img{
+    width: 100%;
+    height: 100%;
+}
+#banner .bbtn {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+    margin-top: 32px;
+}
+#banner .bbtn a{
+    color: #333;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+#banner .bbtn button{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    padding: 24px 38px;
+    border: none;
+    display: flex;
+    column-gap: 7px;
+    text-transform: uppercase;
+    align-items: center;
+    transition: all linear .3s;
+}
+#banner .bbtn button:hover{
+    background: #2a0da0;
+    color: #FFF;
+
+}
+#banner .bbtn button i{
+    font-size: 16px;
+}
+#banner .bbtn a{
+    color: #333;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    background: transparent;
+    padding: 24px 38px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+#banner .bbtn a:hover{
+    color: #5E3BEE;
+    text-decoration: underline;
+}
+/* ============= banner part end ============== */ 
+
+/* ============= counter part start ============== */ 
+#counter{
+    padding-top: 91px;
+}
+
+#counter .item h3{
+    color: #000;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#counter .item p{
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+/* ============= counter part end ============== */ 
+
+/* ============= service part start ============== */
+#service{
+    padding-top: 122px;
+    padding-bottom: 140px;
+}
+#service .service-header h6{
+    color: #5E3BEE;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+#service .service-header h6::after{
+    content: url(../images/serviceicon.png);
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    z-index: -1;
+
+}
+#service .service-header h4{
+    color: #000;
+    font-family: "Poppins",sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+    margin: 13px 0;
+}
+#service .service-header p{
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-left: 11px;
+    padding-right: 35px;
+
+}
+#service .service-item{
+    background: #FFF;
+    padding: 52px 34px;
+    border-radius: 24px;
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 42px;
+    transition: all linear .3s;
+}
+#service .service-item:hover{
+    background: #F9F9FC;
+}
+#service .service-item h5{
+    color: #000;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 37px;
+}
+#service .service-item p{
+    padding: 0 15px;
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 9px;
+}
+/* ============= service part end ============== */ 
+
+/* ============= about part start ============== */ 
+#about{
+    background: url(../images/about.png) no-repeat center;
+    background-size: cover;
+    padding-top: 109px;
+    padding-bottom: 113px;
+}
+
+#about .about-left strong{
+    color: #5E3BEE;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#about .about-left h2{
+    padding-right: 128px;
+    font-family: "Poppins",sans-serif;
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-top: 10px;
+}
+#about .about-left p{
+    padding-right: 12px;
+    font-family: "Poppins",sans-serif;
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+#about .about-right img{
+    width: 100%;
+    height: 100%;
+}
+#about .bbtn button{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    padding: 24px 38px;
+    border: none;
+    display: flex;
+    column-gap: 7px;
+    text-transform: uppercase;
+    align-items: center;
+    transition: all linear .3s;
+    margin-top: 24px;
+}
+#about .bbtn button:hover{
+    background: #2a0da0;
+    color: #FFF;
+
+}
+#about .bbtn button i{
+    font-size: 16px;
+}
+
+/* ============= about part end ============== */ 
+
+/* ============= brand part start ============== */ 
+#brand{
+    padding-top: 119px;
+    padding-bottom: 113px;
+}
+.brand-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ============= brand part end ============== */ 
+
+/* ============= protfolio part start ============== */ 
+#protfolio{
+    padding-top: 28px;
+    padding-bottom: 132px;
+}
+#protfolio .protfolio-left h6{
+    color: #5E3BEE;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+#protfolio .protfolio-left h6::after{
+    content: url(../images/serviceicon.png);
+    position: absolute;
+    top: -35px;
+    left: -25px;
+    z-index: -1;
+
+}
+#protfolio .protfolio-left h4{
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+    margin-top: 11px;
+    margin-bottom: 51px;
+}
+#protfolio .protfolio-right p{
+    color: rgba(18, 18, 18, 0.70);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    padding-right: 80px;
+}
+#protfolio .protfolio-items{
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+}
+#protfolio .protfolio-items .img{
+    height: 389px;
+}
+#protfolio .protfolio-items .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#protfolio .protfolio-items .text{
+    padding: 23px 30px;
+}
+#protfolio .protfolio-items .text h5{
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+#protfolio .protfolio-items .text p{
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+/* ============= protfolio part end ============== */ 
+
+/* ============= testimonial part start ============== */ 
+.testimonial-bg{
+    background: #F9F9FC;
+    padding: 92px 0 157px 0;
+}
+
+#testimonial .testi-header h6{
+    color: #5E3BEE;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+#testimonial .testi-header h6::after{
+    content: url(../images/testi.png);
+    position: absolute;
+    top: -35px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+}
+#testimonial .testi-header h4{
+    color: #000;
+    font-family: "Poppins",sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+}
+#testimonial .testi-header p{
+    padding-right: 12px;
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 13px;
+}
+#testimonial .testi-item{
+    padding: 44px 42px;
+    border-radius: 24px;
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+#testimonial .testi-item .ratings i{
+    color: #EEC01C;
+    
+}
+
+#testimonial .testi-item p{
+    padding-right: 44px;
+    color: #000;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-top: 22px;
+}
+#testimonial .review-parent{
+    margin-top: -90px;
+}
+#testimonial .rivewer{
+    margin-top: 27px;
+}
+#testimonial .rivewer .main .img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#testimonial .rivewer .main .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#testimonial .rivewer .main .text h5{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+#testimonial .rivewer .main .text strong{
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+}
+/* ============= testimonial part end ============== */ 
+
+/* ============= cta part start ============== */ 
+#cta{
+    padding-top: 140px;
+}
+#cta .cta-bg{
+    background: url(../images/action.png) no-repeat center;
+    background-size: cover;
+    padding: 92px 0;
+    border-radius: 24px;
+
+}
+#cta .cta-bg .contant h4{
+    color: #333;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0.25px;
+}
+
+#cta .cta-bg .contant button{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    padding: 24px 38px;
+    border: none;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+#cta .cta-bg .contant button:hover{
+    background: #2a0da0;
+    color: #FFF;
+
+}
+#cta .cta-bg .contant button i{
+    font-size: 16px;
+}
+/* ============= cta part end ============== */ 
+
+/* ============= footer part start ============== */
+#footer{
+    margin: 0 auto;
+    margin-top: 125px;
+    border-top-left-radius:24px ;
+    border-top-right-radius:24px ;
+    max-width: 1430px;
+    background: #333;
+    padding-top: 112px;
+    padding-bottom: 66px;
+   
+}
+#footer .footer-left p{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 24px;
+}
+#footer .contact-info ul li{
+    margin-bottom: 23px;
+}
+#footer .contact-info ul li a{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+}
+#footer .contact-info ul li a i{
+    margin-right: 20px;
+}
+#footer .contact-info .social-media{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+#footer .contact-info .social-media i{
+    width: 24px;
+    height: 24px;
+    color: #FFF;
+    font-size: 24px;
+}
+#footer .bar{
+    width: 100%;
+    height: 1px;
+    background: #404040;
+    margin-top: 65px;
+    margin-bottom: 42px;
+}
+#footer .footer-menu ul{
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+
+#footer .footer-menu ul li a{
+    font-family: "Poppins", sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#footer .copy-text span{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+/* ============= footer part end ============== */ 
